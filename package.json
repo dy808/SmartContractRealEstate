@@ -1,0 +1,31 @@
+{
+  "name": "smartcontractrealestate",
+  "version": "1.0.0",
+  "description": "This set of smart contracts represents real estate as NFT (mint) and buying/selling this NFT. mint smart contract imports ERC721 Open Zeppeling contracts and has an additional function to mint NFT. mint NFT function has two inputs; address and tokenURI. I would suggest that address is the owner's address always and unique tokenURI is the real estate address. This way when NFT is minted owner will have this NFT for this real estate with specific address. The way to buy sell NFT is something to further discuss but I Would suggest using supply chain smart contract I have here two connect this mint.sol smart contrac with contracts in  Supply Chain repository.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dy808/SmartContractRealEstate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dy808/SmartContractRealEstate/issues"
+  },
+  "homepage": "https://github.com/dy808/SmartContractRealEstate#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.6",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.8",
+    "hardhat": "^2.9.7"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.6.0"
+  }
+}
